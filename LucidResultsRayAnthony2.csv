@@ -1,0 +1,33 @@
+dbms,TABLE_CATALOG,TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH,CONSTRAINT_TYPE,TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME
+sqlserver,RayAnthonyIII,dbo,StaffData,EEID,1,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffData,Full_Name,2,nvarchar,50,PRIMARY KEY,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffData,Job_Title,3,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffData,Department,4,nvarchar,50,PRIMARY KEY,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffData,Business_Unit,5,nvarchar,50,PRIMARY KEY,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffData,Age,6,tinyint,NULL,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffData,Hire_Date,7,date,NULL,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffData,Annual_Salary,8,money,NULL,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffData,Bonus,9,float,NULL,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffData,Country,10,nvarchar,50,PRIMARY KEY,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffData,Exit_Date,11,date,NULL,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,JobTitle,JobTitleId,1,int,NULL,PRIMARY KEY,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,JobTitle,JobTitleName,2,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,Department,DepartmentId,1,int,NULL,PRIMARY KEY,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,Department,DepartmentName,2,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,BusinessUnit,BusinessUnitId,1,int,NULL,PRIMARY KEY,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,BusinessUnit,BusinessUnitName,2,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,Country,CountryId,1,int,NULL,PRIMARY KEY,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,Country,CountryName,2,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,Customer,CustomerID,1,int,NULL,PRIMARY KEY,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,NewTable,column_1,1,int,NULL,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffTable,EEID,1,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffTable,Full_Name,2,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffTable,JobTitleId,3,int,NULL,FOREIGN KEY,dbo,JobTitle,JobTitleId
+sqlserver,RayAnthonyIII,dbo,StaffTable,DepartmentId,4,int,NULL,FOREIGN KEY,dbo,Department,DepartmentId
+sqlserver,RayAnthonyIII,dbo,StaffTable,BusinessUnitId,5,int,NULL,FOREIGN KEY,dbo,BusinessUnit,BusinessUnitId
+sqlserver,RayAnthonyIII,dbo,StaffTable,Age,6,tinyint,NULL,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffTable,Hire_Date,7,date,NULL,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffTable,Annual_Salary,8,money,NULL,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffTable,Bonus,9,float,NULL,NULL,NULL,NULL,NULL
+sqlserver,RayAnthonyIII,dbo,StaffTable,CountryId,10,int,NULL,FOREIGN KEY,dbo,Country,CountryId
+sqlserver,RayAnthonyIII,dbo,StaffTable,Exit_Date,11,date,NULL,NULL,NULL,NULL,NULL
