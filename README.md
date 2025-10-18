@@ -33,7 +33,7 @@ StaffTable: Serves as the central entity that references all other tables throug
 
 Relationships
 
-The relationships between entities are defined as follows:
+The relationships between entities are defined as follows.
 
 One BusinessUnit can contain many Departments.
 
@@ -55,4 +55,4 @@ The project was implemented using Microsoft SQL Server and MySQL for database cr
 
 Outcome
 
-This project highlights a practical understanding of data modeling, SQL schema design, and analytical data preparation. It demonstrates the ability to create a normalized, relational data structure that supports efficient querying and reporting—skills that are fundamental for careers in data analysis, systems administration, database management, and IT support. The combination of conceptual modeling, technical implementation, and analytical application illustrates a comprehensive approach to database design and management.
+This project highlights a practical understanding of data modeling, SQL schema design, and analytical data preparation. It demonstrates the ability to create a normalized, relational data structure that supports efficient querying and reporting, which are skills that are fundamental for careers in data analysis, systems administration, database management, and IT support. The combination of conceptual modeling, technical implementation, and analytical application illustrates a comprehensive approach to database design and management.
